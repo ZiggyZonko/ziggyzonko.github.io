@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>ZiggyZonko's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/9694ccb729.js" crossorigin="anonymous"></script>
+
+    <style>
+    h2 {
+        text-align: center;
+        color: white;
+        font-family: "serif";
+        margin-top: 100em;
+    }
+
+    p  {
+        color: white;
+        font-family: Calibri, serif;
+        text-align: center;
+    }
+
+    .typewriter h1 {
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid white; /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .15em; /* Adjust as needed */
+        animation:
+        typing 1s steps(10, end),
+        blink-caret .75s step-end infinite;
+    }
+  
+    /* The typing effect */
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+    }
+  
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: white; }
+    }
+
+    .centered {
+        text-align: center;
+    }
+
+    button {
+        border-radius: 2px;
+        margin: 5px;
+        padding: 10px 20px;
+    }
+    </style>
+</head>
+<body bgcolor="black">
+
+<div style="width: 100%; margin: auto;">
+<div class="typewriter" style="width: 225px; margin: auto;">
+<h1 class='typewriter' style="font-family: Calibri, serif; color: white; margin-top: 8em; text-align: center;">ZiggyZonko</h1>
+</div>
+</div>
+
+<div>
+    <p>
+        ZiggyZonko is an upcoming Java Developer <br>
+        who always has a great work passion to improve and master the skills of Java.<br>
+        He has made many projects over the course of weeks and months to create a stacked Java <br>
+        Github Page full of many fun projects
+    </p>
+</div>
+
+<div class="centered">
+    <a href="https://github.com/ZiggyZonko" style="text-decoration: none;">
+        <i class="fa-brands fa-github fa-xl" style="color: white;"></i>
+    </a>
+    <a href="https://discordapp.com/users/716907578726023210" style="text-decoration: none;">
+        <i class="fa-brands fa-discord fa-lg" style="color: white;"></i>
+    </a>
+</div>
+
+<span style="white-space: pre-line">You see This?</span>
+
+
+<div style='text-align: center; margin: auto; padding-top: 20px;'>
+  <a href="html/projects/projects.html" style="text-decoration: none; margin-right: 10px;">
+      <button style="background-color: rgb(37, 37, 37); color: rgb(163, 162, 162);">Projects</button>
+  </a>
+  <a id="show" style="text-decoration: none; margin-left: 10px;">
+      <button style="background-color: rgb(37, 37, 37); color: rgb(163, 162, 162);">Games</button>
+  </a>
+</div>
+
+
+
+
+</body>
+</html>

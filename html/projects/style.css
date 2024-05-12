@@ -1,0 +1,87 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-family: Calibri, serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 10;
+}
+
+#projects {
+    padding-top: 80px; /* Adjust this value based on your actual header size */
+}
+
+.project {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.project-title {
+    font-size: 24px;
+    color: white;
+}
+
+.project-description {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.github-icon i {
+    color: white; /* Set color to white */
+    font-size: 24px; /* Set size of the icon */
+}
+
+
+#nextBtn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 20px;
+    background-color: rgb(37, 37, 37);
+    color: rgb(163, 162, 162);
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 2px;
+    margin: 5px;
+}
+
+#nextBtn::after {
+    content: "↓";
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Space between icons */
+}
+
+.devicon {
+    font-size: 24px; /* Set font size for Devicon icons */
+    color: white; /* Ensures icons are white */
+}
+
+
+.language-icon {
+    width: 24px; /* Width of the icon */
+    height: 24px; /* Height of the icon */
+    fill: white; /* SVG fill color, only if SVGs are inline or styled via CSS */
+}

@@ -1,0 +1,49 @@
+/* Existing Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-family: Calibri, serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 10;
+}
+
+/* Additional Styles for Projects and Buttons */
+#projects {
+    display: flex;
+    flex-direction: column;  /* Changed to column to stack buttons vertically */
+    align-items: center;     /* Centers the buttons horizontally */
+    justify-content: center; /* Aligns content center vertically */
+    height: 100%;            /* Takes full available height */
+    padding-top: 50px;       /* Adds padding to top to avoid header overlap */
+    box-sizing: border-box;  /* Includes padding in height calculation */
+}
+
+.game-button {
+    background-color: rgb(37, 37, 37); /* Blue background for better contrast with black */
+    border: none;
+    color: rgb(163, 162, 162);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;             /* Adds margin around each button */
+    width: 200px;             /* Fixed width for uniformity */
+    transition: background-color 0.3s;
+}
+
+.game-button:hover {
+    background-color: #6495ed; /* Lighter blue on hover */
+}
